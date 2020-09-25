@@ -1,0 +1,17 @@
+#mainDiv .header{
+	background:#263b45b3;
+	height:50px;
+	padding-top:15px;
+	color:white;
+}
+
+#mainDiv .filterBar{
+	background: #dcdde1;
+    height: 40px;
+    margin-top: 8px;
+}
+.customshadow1 {
+ box-shadow: 0px 1px 7px -3px rgba(104,101,101,0.75);
+-webkit-box-shadow: 0px 1px 7px -3px rgba(104,101,101,0.75);
+-moz-box-shadow: 0px 1px 7px -3px rgba(104,101,101,0.75);
+  }

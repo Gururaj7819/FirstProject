@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: y5008758
+Build-Jdk: 12.0.2
+Implementation-Title: spring-boot-mongodb
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: systemmgmntapp
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/systemmgmntapp
+ /
+Main-Class: com.app.Application
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/angular.min.js"></script>
+    <script src="js/loginController.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/Login.css">
+</head>
+<body ng-app="login-App">
+	<div class="limiter" ng-controller = "loginController">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+					  Welcome to MSRIT
+					 <br> <small style="text-transform: capitalize;">
+					  SYSTEM MANAGEMENT PORTAL
+					  </small>
+					</span>
+				</div>
+
+				<form class="login100-form validate-form">
+					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+						<span class="label-input100">Username</span>
+						<input class="input100" type="text" ng-model="userInfo.username" name="username" placeholder="Enter username">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="password" ng-model="userInfo.password" name="pass" placeholder="Enter password">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div>
+					<small style="color:red;margin-top:15px;"><i>{{message}}</i></small>
+					</div>
+					<div style="margin-top:10px;" class="container-login100-form-btn">
+						<button class="login100-form-btn" ng-click="login();">
+							Login
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+ 
+     
+</body>
+</html>
